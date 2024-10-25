@@ -30,9 +30,9 @@ class KropifyServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-         $this->app->bind('kropify', function(){
-            return new Kropify();
-         });
+        //  $this->app->bind('kropify', function(){
+        //     return new Kropify();
+        //  });
     }
 
     /**
