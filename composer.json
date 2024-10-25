@@ -27,9 +27,6 @@
         "laravel": {
             "providers": [
                 "SawaStacks\\Utils\\KropifyServiceProvider"
-            ],
-            "dont-discover":[
-                "sawastacks/gropy"
             ]
         }
     }
