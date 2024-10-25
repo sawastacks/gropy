@@ -29,5 +29,8 @@
                 "SawaStacks\\Utils\\KropifyServiceProvider"
             ]
         }
-    }
+    },
+    "suggest": {
+        "intervention/image": "Allows to resize images"
+     }
 }
