@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "intervention/image": "^2.7 || ^3.0"
+        "intervention/image": "^2.7"
     },
     "autoload": {
         "psr-4": {
