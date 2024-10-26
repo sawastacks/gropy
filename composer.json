@@ -1,36 +1,32 @@
 {
     "name": "sawastacks/gropy",
-    "description": "test",
-    "homepage": "https://github.com/sawastacks/gropy",
-    "keywords": [
-        "gropy"  
-    ],
+    "description": "This is the crop",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sawa Stacks Inc.",
+            "name": "Sawa Stacks",
             "email": "sawastacks@gmail.com",
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": "^7.2|^8.0",
-        "intervention/image": "^2.7"
+        "php": "^7.2|^8.0"
+    },
+    "suggest": {
+       "intervention/image": "^2.7 Required for image processing functionality."
     },
     "autoload": {
         "psr-4": {
-            "SawaStacks\\Utils\\": "src/"
+            "SawaStacks\\Utils\\image\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SawaStacks\\Utils\\KropifyServiceProvider"
+                "SawaStacks\\Utils\\image\\KropifyServiceProvider"
             ]
         }
-    },
-    "suggest": {
-        "intervention/image": "Allows to resize images"
-     }
+    }
 }
