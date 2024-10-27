@@ -9,7 +9,7 @@
  * MIT license: https://github.com/sawastacks/gropy/blob/master/LICENSE
  */
 
-namespace SawaStacks\Utils\Image;
+namespace SawaStacks\Utils;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
@@ -72,7 +72,7 @@ class Kropify
      * 
      * @param string $file
      * @param string $filename
-     * @return SawaStacks\Utils\Image\Kropify
+     * @return SawaStacks\Utils\Kropify
      */
     public static function getFile($file, $filename = null)
     {
@@ -83,7 +83,7 @@ class Kropify
 
     /**
      * @param int $max
-     * @return SawaStacks\Utils\Image\Kropify
+     * @return SawaStacks\Utils\Kropify
      */
     public static function maxWoH($max = 500)
     {

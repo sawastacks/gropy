@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "SawaStacks\\Utils\\Image\\": "src/"
+            "SawaStacks\\Utils\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SawaStacks\\Utils\\Image\\KropifyServiceProvider"
+                "SawaStacks\\Utils\\KropifyServiceProvider"
             ]
         }
     }
