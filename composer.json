@@ -1,0 +1,33 @@
+{
+    "name": "sawastacks/gropy",
+    "description": "test",
+    "homepage": "https://github.com/sawastacks/gropy",
+    "keywords": [
+        "gropy"  
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sawa Stacks Inc.",
+            "email": "sawastacks@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SawaStacks\\Utils\\image\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SawaStacks\\Utils\\Image\\GropyServiceProvider"
+            ]
+        }
+    }
+}
