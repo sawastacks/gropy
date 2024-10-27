@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Blade;
  * Class GropyServiceProvider
  * @package SawaStacks\Utils\Image
  */
-class GropyServiceProvider extends ServiceProvider
+class KropifyServiceProvider extends ServiceProvider
 {
     /**
      * @var string

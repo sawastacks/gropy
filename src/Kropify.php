@@ -72,7 +72,7 @@ class Kropify
      * 
      * @param string $file
      * @param string $filename
-     * @return SawaStacks\Utils\Kropify
+     * @return SawaStacks\Utils\Image\Kropify
      */
     public static function getFile($file, $filename = null)
     {
